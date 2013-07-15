@@ -4,9 +4,8 @@ var app = express.createServer(express.logger());
 
 app.get('/', function(request, response) {
     console.log('index')
-  fs.readFile('index.html',function(error,data){
-      response.write(data)
-  });
+var readStream= = fs.createReadStream('index.html').pipe(response)
+
 });
 var port = process.env.PORT || 5000;
 app.listen(port, function() {
