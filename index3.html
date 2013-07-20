@@ -1,0 +1,50 @@
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Zombie</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="/styles/base.css" type="text/css">
+<link rel="stylesheet" href="/styles/bootstrap-combined.css" type="text/css">
+<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.css">
+<link rel="stylesheet" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fsocial-buttons.css">    
+<script src="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fjquery.js"></script>
+<script src="/bootstrap/js/bootstrap.js"></script>
+<link href="http://fonts.googleapis.com/css?family=Ubuntu:300,400,500|Roboto:100,200,300,400|Eater|Finger+Paint" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,300,400,600,700,800" rel="stylesheet" type="text/css">
+</head>
+<script type="text/javascript">
+	var new_nav = new function() {};
+	var x;
+	var old_navigator = window.navigator;
+	for (x in navigator) {
+	    if (typeof navigator[x] == 'function') {
+	        eval("new_nav." + x + " = function() { return old_navigator." + x + "();};");
+	    } else {
+	        eval("new_nav." + x + " = navigator." + x + ";");
+	    }
+	}
+	new_nav.userAgent = "Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_3_2 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8H7 Safari/6533.18.5";
+	new_nav.vendor = "Apple, Inc.";
+	window.navigator = new_nav;
+</script>
+<body style="">
+  <div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar-inner">
+      <div class="container">
+        <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="brand" href="#">Zombie Kit</a>
+        <div class="nav-collapse collapse">
+          <ul class="nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+  </div>
+  </div>

@@ -1,0 +1,142 @@
+.bodytext {
+	font-family: "Roboto";
+	font-weight: 100;
+	font-size: 50px;
+	line-height: 1.4em;
+	vertical-align: middle;
+	padding: 50px 0;	
+}
+
+.bodytext2 {
+	font-family: "Roboto";
+	font-weight: 100;
+	font-size: 30px;
+	line-height: 1.03em;
+	text-align: right;
+	padding: 50px 0;
+}
+
+a.brand {
+	font-family: "Roboto";
+}
+
+div.navbar-inner {
+	transition-duration: 2s;
+}
+
+h1 {
+	font-size: 60px !important;
+	line-height: 1.1em !important;
+	color: #B00000 !important;
+	font-family: "Finger Paint" !important;
+}
+
+.bigbrand {
+	width: 100%;
+	font-family: "Finger Paint";
+	margin: 50px auto;
+	font-size: 60px;
+	text-align: center;	
+	line-height: 1em;
+	color: rgba(102, 0, 0, 95%);
+}
+
+.oneliner {
+	font-family: "Roboto";
+	font-size: 40px;
+	line-height: 1em;
+	color: rgba(102, 0, 0, 95%);
+	font-weight: 200;
+	margin-bottom: 100px;
+	text-align: center;
+}
+
+.black {
+	background-color: black;
+	color: white;
+	margin-top: 100px;
+	padding: 50px;
+}
+
+/* Large desktop */
+@media (min-width: 980px) { 
+	body {
+		padding-top: 60px;
+	}
+	.linediv-l {
+		border-	: 1px white solid;
+	}
+	.linediv-r {
+		border-left: 1px white solid;
+	}
+
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) { 
+	.copy {
+		padding: 2.5% 10%;
+	}
+	.linediv-l {
+		border-bottom: 1px white solid;
+	}
+	.linediv-r {
+		border-top: 1px white solid;
+	}
+
+}
+
+/* All form factors */
+
+/* Main body and headings */
+body{
+}
+.heading, .subheading {
+	text-align: center;
+}
+p.lead {
+	padding-top: 1.5%;
+	font-size: 24px;
+	line-height: 30px;
+}
+p {
+	font-size: 18px;
+	line-height: 24px;
+}
+/* Video pitch and Action */
+.pitch {
+	padding: 2.5% 0%;
+}
+.order {
+	padding: 2% 0%;
+}
+.actions {
+	background-color: #343434;
+	padding: 3% 0%;
+}
+.video, .thermometer, .order, .social, .statistics {
+	text-align: center;
+}
+.statistics h3, .statistics p {
+	color: white;
+}
+
+/* Marketing Copy and Footer */
+.copy {
+	padding-top: 2.5%;
+	padding-bottom: 2.5%;
+	text-align: justify;
+}
+.asset {
+	padding: 2.5% 0%;
+}
+.footer {
+	color: #cccccc;
+	text-align: center;
+}
+.footer p {
+	font-size: 11px;
+}
+.footer a {
+	color: #ccccff;
+}
