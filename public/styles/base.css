@@ -1,3 +1,8 @@
+.tan {
+	background-color: #ede0ce;
+	width: 100%;
+}
+
 .bodytext {
 	font-family: "Roboto";
 	font-weight: 100;
@@ -16,12 +21,26 @@
 	padding: 50px 0;
 }
 
+.topwrap {
+	background-color: black;
+	background-color: #ede0ce;
+	padding: 10px 0 20px 0;
+}
+
 a.brand {
 	font-family: "Roboto";
 }
 
 div.navbar-inner {
 	transition-duration: 2s;
+	background-color: #ede0ce !important;
+	color: #161616 !important;
+	font-family: "Old Standard TT";
+	box-shadow: 0, 0, 0, black !important;
+}
+
+.navbar.li.a {
+	color: black;
 }
 
 h1 {
@@ -33,22 +52,24 @@ h1 {
 
 .bigbrand {
 	width: 100%;
-	font-family: "Finger Paint";
-	margin: 50px auto;
+	font-family: "Old Standard TT";
 	font-size: 60px;
 	text-align: center;	
 	line-height: 1em;
-	color: rgba(102, 0, 0, 95%);
+	color: #161616;
+	letter-spacing: 2px;
+	margin: 10px auto;
 }
 
 .oneliner {
-	font-family: "Roboto";
-	font-size: 40px;
+	font-family: "Old Standard TT";
+	font-size: 17;
 	line-height: 1em;
-	color: rgba(102, 0, 0, 95%);
-	font-weight: 200;
-	margin-bottom: 100px;
+	color: #161616;
+	font-weight: 300;
 	text-align: center;
+	font-style: italic;
+	letter-spacing: .1em;
 }
 
 .black {
@@ -57,86 +78,12 @@ h1 {
 	margin-top: 100px;
 	padding: 50px;
 }
-
-/* Large desktop */
-@media (min-width: 980px) { 
-	body {
-		padding-top: 60px;
-	}
-	.linediv-l {
-		border-	: 1px white solid;
-	}
-	.linediv-r {
-		border-left: 1px white solid;
-	}
-
+#sticky {
+}
+#sticky.stick {
+  position: fixed;
+  top: 0;
+  z-index: 10000;
+  width: 100%;
 }
 
-/* Landscape phones and down */
-@media (max-width: 480px) { 
-	.copy {
-		padding: 2.5% 10%;
-	}
-	.linediv-l {
-		border-bottom: 1px white solid;
-	}
-	.linediv-r {
-		border-top: 1px white solid;
-	}
-
-}
-
-/* All form factors */
-
-/* Main body and headings */
-body{
-}
-.heading, .subheading {
-	text-align: center;
-}
-p.lead {
-	padding-top: 1.5%;
-	font-size: 24px;
-	line-height: 30px;
-}
-p {
-	font-size: 18px;
-	line-height: 24px;
-}
-/* Video pitch and Action */
-.pitch {
-	padding: 2.5% 0%;
-}
-.order {
-	padding: 2% 0%;
-}
-.actions {
-	background-color: #343434;
-	padding: 3% 0%;
-}
-.video, .thermometer, .order, .social, .statistics {
-	text-align: center;
-}
-.statistics h3, .statistics p {
-	color: white;
-}
-
-/* Marketing Copy and Footer */
-.copy {
-	padding-top: 2.5%;
-	padding-bottom: 2.5%;
-	text-align: justify;
-}
-.asset {
-	padding: 2.5% 0%;
-}
-.footer {
-	color: #cccccc;
-	text-align: center;
-}
-.footer p {
-	font-size: 11px;
-}
-.footer a {
-	color: #ccccff;
-}
